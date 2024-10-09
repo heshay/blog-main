@@ -10,7 +10,6 @@ export default function Home() {
       <HeroHome />
       <FeaturesHome />
       <FeaturesBlocks />
-      <TestimonialsHome />
       <Cta />
     </Layout>
   )
