@@ -44,17 +44,17 @@ const HeroHome = () => {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-6xl md:text-7xl font-extrabold leading-tight mb-4" data-aos="zoom-y-out">Imagine Apple Notes, synced with <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-900 to-purple-400">Obsidian</span></h1>
+            <h1 className="text-6xl md:text-7xl font-extrabold leading-tight mb-4" data-aos="zoom-y-out">Immersive <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-900 to-purple-400">leadership development</span> personalised for your team</h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl md:text-2xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                Your Ideas, Instantly in Obsidian: The Open-Source Tool Making Note-Taking Effortless
+                Help your people exceed their potential, so they can unlock yours
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-4" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://my.fleetingnotes.app">Try Web App</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://exec.coach">Try now</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://docs.fleetingnotes.app">Learn more</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://exec.coach">Let's chat</a>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ const HeroHome = () => {
                 {iframeHidden ? (
                   <img className="w-full mx-auto" src="assets/demo.png" alt="Hero" />
                 ) : (
-                  <iframe className="w-full h-[500px]" src="https://my.fleetingnotes.app/?note=d8e2d800-3470-11ed-8f75-019219fce7fb"></iframe>
+                  <iframe className="w-full h-[500px]" src="https://exec.coach"></iframe>
                 )}
               </div>
               <button className={`absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg ${iframeHidden ? 'block' : 'hidden'}`} onClick={(e) => { e.preventDefault(); e.stopPropagation(); setIframeHidden(!iframeHidden); }} aria-controls="modal">
