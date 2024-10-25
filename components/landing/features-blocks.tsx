@@ -59,7 +59,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">International Growth</h4>
-              <p className="text-gray-600 text-center">JCPenny adapting to consumer preferences</p>
+              <p className="text-gray-600 text-center">Yum! Brands new market entry</p>
             </div>
 
             {/* 4th item */}
@@ -101,7 +101,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Turnarounds</h4>
-              <p className="text-gray-600 text-center">JCPenny adapting to shifting consumer preferences</p>
+              <p className="text-gray-600 text-center">Shifting JCPenny consumer preferences</p>
             </div>
 
           </div>
