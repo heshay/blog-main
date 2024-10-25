@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">But wait... There's more</h2>
-            <p className="text-xl text-gray-600">Here are some highly requested features you ought to know :)</p>
+            <h2 className="h2 mb-4">Try one of our case studies today</h2>
+            <p className="text-xl text-gray-600">Hundreds of lessons, available on demand</p>
           </div>
 
           {/* Items */}
@@ -30,8 +30,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="/posts/end-to-end-encryption-in-fleeting-notes">End-to-end Encryption</PreviewLink></h4>
-              <p className="text-gray-600 text-center">Ensure that your notes are accessible to you and ONLY you</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Strategy</h4>
+              <p className="text-gray-600 text-center">Lego's three step plan</p>
             </div>
 
             {/* 2nd item */}
@@ -44,8 +44,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Offline First</h4>
-              <p className="text-gray-600 text-center">Access and edit your notes without an internet connection</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Brand Marketing</h4>
+              <p className="text-gray-600 text-center">American Express's social strategy</p>
             </div>
 
             {/* 3rd item */}
@@ -58,8 +58,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="notes/how-to-export-notes-in-fn">Easy Export</PreviewLink></h4>
-              <p className="text-gray-600 text-center">Export all your notes in Markdown or JSON format</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">International Growth</h4>
+              <p className="text-gray-600 text-center">JCPenny adapting to consumer preferences</p>
             </div>
 
             {/* 4th item */}
@@ -72,8 +72,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Open Source</h4>
-              <p className="text-gray-600 text-center">Ensures transparency and honesty in every line of code</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
+              <p className="text-gray-600 text-center">Apple's design led thinking</p>
             </div>
 
             {/* 5th item */}
@@ -86,8 +86,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="/posts/home-widgets-for-fleeting-notes">Android/iOS Home Widgets</PreviewLink></h4>
-              <p className="text-gray-600 text-center">Access your notes directly from your home screen</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Finance</h4>
+              <p className="text-gray-600 text-center">Midland Energy's cost of capital</p>
             </div>
 
             {/* 6th item */}
@@ -100,8 +100,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="posts/how-to-setup-local-file-sync">Local file sync</PreviewLink></h4>
-              <p className="text-gray-600 text-center">Sync notes with your local filesystem in markdown format</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Turnarounds</h4>
+              <p className="text-gray-600 text-center">JCPenny adapting to shifting consumer preferences</p>
             </div>
 
           </div>

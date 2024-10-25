@@ -31,7 +31,7 @@ function FeaturesHome() {
 {/* 2nd item */}
 <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">95%</h4>
-  <p className="text-gray-600 text-center">S&P 500 companies say organisational agility is critical or very important</p>
+  <p className="text-gray-600 text-center">S&P 500 companies say organisational agility is vital</p>
 </div>
 
 {/* 3rd item */}
@@ -41,8 +41,9 @@ function FeaturesHome() {
 </div>
 </div>
 
+
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 mt-16">
             <h1 className="h2 mb-4">We simulate real-world business cases to coach your team for what's next</h1>
             <p className="text-xl text-gray-600">With bespoke development plans which connect individual aspirations to your company's vision</p>
           </div>
