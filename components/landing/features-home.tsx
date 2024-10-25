@@ -24,39 +24,18 @@ function FeaturesHome() {
 
 {/* 1st item */}
 <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="32" viewBox="0 0 24 24" rx="32" />
-      <g transform="translate(19.429 20.571)">
-        <path className="fill-current text-white" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path>
-      </g>
-    </g>
-  </svg>
   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">41%</h4>
   <p className="text-gray-600 text-center">Longer tenure where there's an internal talent mobility strategy</p>
 </div>
 
 {/* 2nd item */}
 <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="32" rx="32" />
-      <g transform="translate(19.429 20.571)">
-        <path className="fill-current text-white" d="M22.99 9C19.15 5.16 13.8 3.76 8.84 4.78l2.52 2.52c3.47-.17 6.99 1.05 9.63 3.7l2-2zm-4 4c-1.29-1.29-2.84-2.13-4.49-2.56l3.53 3.53.96-.97zM2 3.05 5.07 6.1C3.6 6.82 2.22 7.78 1 9l1.99 2c1.24-1.24 2.67-2.16 4.2-2.77l2.24 2.24C7.81 10.89 6.27 11.73 5 13v.01L6.99 15c1.36-1.36 3.14-2.04 4.92-2.06L18.98 20l1.27-1.26L3.29 1.79 2 3.05zM9 17l3 3 3-3c-1.65-1.66-4.34-1.66-6 0z"></path>
-      </g>
-    </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">60%</h4>
-  <p className="text-gray-600 text-center">Average workforce utilization</p>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">95%</h4>
+  <p className="text-gray-600 text-center">S&P 500 companies say organisational agility is critical or very important</p>
 </div>
 
 {/* 3rd item */}
 <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="32" rx="32" />
-      <g transform="translate(19.429 20.571)">
-        <path className="fill-current text-white" d="m16 5-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z"></path>
-      </g>
-    </g>
-  </svg>
   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">18%</h4>
   <p className="text-gray-600 text-center">Higher customer retention when employees are engaged</p>
 </div>
@@ -64,8 +43,8 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Tired of Manually Transferring Notes to Obsidian?</h1>
-            <p className="text-xl text-gray-600">I know typical <PreviewLink href="/posts/put-quick-notes-into-obsidian-from-anywhere">PKM tools aren't built for quick capture</PreviewLink>. With Fleeting Notes, you can capture ideas that sync directly with your knowledge base</p>
+            <h1 className="h2 mb-4">We simulate real-world business cases to coach your team for what's next</h1>
+            <p className="text-xl text-gray-600">With bespoke development plans which connect individual aspirations to your company's vision</p>
           </div>
 
 
@@ -75,8 +54,8 @@ function FeaturesHome() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Everything you need for quick capture</h3>
-                <p className="text-xl text-gray-600">Take your workflow to the next level and make quick capture actually quick</p>
+                <h3 className="h3 mb-3">Features</h3>
+                <p className="text-xl text-gray-600">We personal professional development for your employee's unique aspirations - whether that is switching departments, leading people or making strategic decisions.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -85,8 +64,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Capture Ideas Anytime, Anywhere</div>
-                    <div className="text-gray-600">Create and sync fleeting notes on the web, in your phone, or even within a browser extension</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Homework</div>
+                    <div className="text-gray-600">Read and analyse a ten page document written from the viewpoint of a real person leading a real organisation required to make a decision</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -99,8 +78,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Keep track of any source</div>
-                    <div className="text-gray-600">Highlight text, share links, and paste images/files directly into Fleeting Notes</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Discuss and Engage</div>
+                    <div className="text-gray-600">Debate with our AI on identifying thbe best path forward. While we facilitate the discussion, it's driven by individual comments and experiences</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -113,8 +92,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Built for Obsidian MD</div>
-                    <div className="text-gray-600">Use the "Fleeting Notes Sync" Obsidian plugin to sync and process your notes</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reflection</div>
+                    <div className="text-gray-600">We prepare individuals for their future roles, where they will face time-sensitive decisions with limited information</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
