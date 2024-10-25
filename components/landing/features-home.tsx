@@ -24,10 +24,54 @@ function FeaturesHome() {
             <p className="text-xl text-gray-600">I know typical <PreviewLink href="/posts/put-quick-notes-into-obsidian-from-anywhere">PKM tools aren't built for quick capture</PreviewLink>. With Fleeting Notes, you can capture ideas that sync directly with your knowledge base</p>
           </div>
 
-          {/* Top image */}
-          <div className="pb-12 md:pb-16">
-            <img className="rounded" src="assets/top-image.png" width="1104" height="325" alt="Features top" />
-          </div>
+
+
+         {/* Items */}
+         <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+
+{/* 1st item */}
+<div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fillRule="evenodd">
+      <rect className="fill-current text-blue-600" width="64" height="64" viewBox="0 0 24 24" rx="32" />
+      <g transform="translate(19.429 20.571)">
+        <path className="fill-current text-white" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path>
+      </g>
+    </g>
+  </svg>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="/posts/end-to-end-encryption-in-fleeting-notes">End-to-end Encryption</PreviewLink></h4>
+  <p className="text-gray-600 text-center">Ensure that your notes are accessible to you and ONLY you</p>
+</div>
+
+{/* 2nd item */}
+<div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fillRule="evenodd">
+      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+      <g transform="translate(19.429 20.571)">
+        <path className="fill-current text-white" d="M22.99 9C19.15 5.16 13.8 3.76 8.84 4.78l2.52 2.52c3.47-.17 6.99 1.05 9.63 3.7l2-2zm-4 4c-1.29-1.29-2.84-2.13-4.49-2.56l3.53 3.53.96-.97zM2 3.05 5.07 6.1C3.6 6.82 2.22 7.78 1 9l1.99 2c1.24-1.24 2.67-2.16 4.2-2.77l2.24 2.24C7.81 10.89 6.27 11.73 5 13v.01L6.99 15c1.36-1.36 3.14-2.04 4.92-2.06L18.98 20l1.27-1.26L3.29 1.79 2 3.05zM9 17l3 3 3-3c-1.65-1.66-4.34-1.66-6 0z"></path>
+      </g>
+    </g>
+  </svg>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Offline First</h4>
+  <p className="text-gray-600 text-center">Access and edit your notes without an internet connection</p>
+</div>
+
+{/* 3rd item */}
+<div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fillRule="evenodd">
+      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+      <g transform="translate(19.429 20.571)">
+        <path className="fill-current text-white" d="m16 5-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z"></path>
+      </g>
+    </g>
+  </svg>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><PreviewLink href="notes/how-to-export-notes-in-fn">Easy Export</PreviewLink></h4>
+  <p className="text-gray-600 text-center">Export all your notes in Markdown or JSON format</p>
+</div>
+</div>
+
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
