@@ -17,7 +17,7 @@ function Cta() {
 
               {/* CTA button */}
               <div>
-                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white w-36" href="https://exec.coach">Free Trial</a>
+                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white w-36" href="mailto:hello@exec.coach?subject=Can%20I%20start%20my%20trial%3F&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A">Free Trial</a>
               </div>
 
             </div>

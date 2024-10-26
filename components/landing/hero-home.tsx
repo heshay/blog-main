@@ -51,10 +51,10 @@ const HeroHome = () => {
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-4" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://exec.coach">Free Trial</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="mailto:hello@exec.coach?subject=Can%20I%20start%20my%20trial%3F&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A">Free Trial</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://exec.coach">Let's Chat</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://calendly.com/catch-ups/30m">Let's Chat</a>
                 </div>
               </div>
             </div>

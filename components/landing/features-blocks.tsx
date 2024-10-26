@@ -30,7 +30,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Strategy</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"> <a href="mailto:support@exec.coach?subject=Business%20Strategy%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">Business Strategy</a></h4>
               <p className="text-gray-600 text-center">Lego's three step plan</p>
             </div>
 
@@ -44,7 +44,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Brand Marketing</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><a href="mailto:support@exec.coach?subject=Brand%20Marketing%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">Brand Marketing</a></h4>
               <p className="text-gray-600 text-center">American Express's social strategy</p>
             </div>
 
@@ -58,7 +58,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">International Growth</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><a href="mailto:support@exec.coach?subject=International%20Growth%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">International Growth</a></h4>
               <p className="text-gray-600 text-center">Yum! Brands new market entry</p>
             </div>
 
@@ -72,7 +72,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><a href="mailto:support@exec.coach?subject=Innovation%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">Innovation</a></h4>
               <p className="text-gray-600 text-center">Apple's design led thinking</p>
             </div>
 
@@ -86,7 +86,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Finance</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><a href="mailto:support@exec.coach?subject=Finance%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">Finance</a></h4>
               <p className="text-gray-600 text-center">Midland Energy's cost of capital</p>
             </div>
 
@@ -100,7 +100,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Turnarounds</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"><a href="mailto:support@exec.coach?subject=Business%20Turnarounds%20Trial&body=Hi%20team%2C%0D%0A%0D%0ACould%20you%20please%20start%20my%20trial%20for%20the%20Exec.Coach%3F%0D%0A%0D%0AThanks%2C%0D%0A" className="hover:underline">Business Turnarounds</a></h4>
               <p className="text-gray-600 text-center">Shifting JCPenny consumer preferences</p>
             </div>
 
